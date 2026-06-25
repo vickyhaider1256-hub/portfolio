@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Waqas | Drywall & Insulation Estimator</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#1e293b,#0f172a);
+    color:#fff;
+    padding:80px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+    color:#cbd5e1;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:#f59e0b;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    padding:70px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    font-size:2rem;
+    color:#0f172a;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:40px;
+    align-items:center;
+}
+
+.profile-box{
+    background:white;
+    padding:40px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.profile-box img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.card-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+}
+
+.skill{
+    background:#0f172a;
+    color:white;
+    padding:12px 20px;
+    border-radius:50px;
+}
+
+.portfolio{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.project{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.project img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.project-content{
+    padding:20px;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.stat{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:30px;
+    border-radius:15px;
+}
+
+.stat h3{
+    font-size:2rem;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#f59e0b;
+    text-decoration:none;
+    font-weight:600;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Muhammad Waqas</h1>
+    <p>Drywall & Insulation Estimator | Bluebeam Revu | PlanSwift | Excel Pricing</p>
+
+    <a href="#contact" class="btn">Hire Me</a>
+</header>
+
+<section>
+<div class="container">
+
+<div class="section-title">
+<h2>About Me</h2>
+</div>
+
+<div class="about">
+
+<div class="profile-box">
+    <img src="https://via.placeholder.com/300" alt="Profile">
+    <h3>Muhammad Waqas</h3>
+    <p>Civil Engineer</p>
+</div>
+
+<div>
+<p>
+I am a Civil Engineer and Construction Estimator specializing in Drywall,
+Metal Framing, Insulation, and Acoustical Ceiling estimating for U.S.
+construction projects.
+</p>
+
+<br>
+
+<p>
+I review architectural drawings, specifications, bid documents,
+and perform detailed quantity takeoffs using Bluebeam Revu and PlanSwift.
+I prepare accurate cost estimates, quantity reports, and bid pricing
+for commercial and residential projects.
+</p>
+
+<br>
+
+<p>
+My goal is to provide contractors with accurate estimates,
+fast turnaround times, and reliable preconstruction support.
+</p>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section style="background:white;">
+<div class="container">
+
+<div class="section-title">
+<h2>Services</h2>
+</div>
+
+<div class="card-grid">
+
+<div class="card">
+<h3>Drywall Takeoff</h3>
+<p>Gypsum board, shaft walls, bulkheads, soffits, wall areas, and complete drywall quantity calculations.</p>
+</div>
+
+<div class="card">
+<h3>Metal Framing</h3>
+<p>Studs, tracks, headers, structural framing, and detailed framing takeoffs.</p>
+</div>
+
+<div class="card">
+<h3>Insulation Takeoff</h3>
+<p>Thermal insulation, batt insulation, sound attenuation insulation, and material estimates.</p>
+</div>
+
+<div class="card">
+<h3>Bid Pricing</h3>
+<p>Material pricing, labor calculations, waste factors, and complete estimate preparation.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="section-title">
+<h2>Software Expertise</h2>
+</div>
+
+<div class="skills">
+<div class="skill">Bluebeam Revu</div>
+<div class="skill">PlanSwift</div>
+<div class="skill">Microsoft Excel</div>
+<div class="skill">PDF Plan Review</div>
+<div class="skill">Construction Estimating</div>
+<div class="skill">Quantity Takeoffs</div>
+</div>
+
+</div>
+</section>
+
+<section style="background:white;">
+<div class="container">
+
+<div class="section-title">
+<h2>Portfolio Samples</h2>
+<p>Add your actual Bluebeam and PlanSwift screenshots here.</p>
+</div>
+
+<div class="portfolio">
+
+<div class="project">
+<img src="https://via.placeholder.com/600x400" alt="">
+<div class="project-content">
+<h3>Commercial Office Building</h3>
+<p>Drywall, metal framing and insulation quantity takeoff.</p>
+</div>
+</div>
+
+<div class="project">
+<img src="https://via.placeholder.com/600x400" alt="">
+<div class="project-content">
+<h3>Multi-Family Apartment</h3>
+<p>Complete estimating and pricing support.</p>
+</div>
+</div>
+
+<div class="project">
+<img src="https://via.placeholder.com/600x400" alt="">
+<div class="project-content">
+<h3>Educational Facility</h3>
+<p>ACT ceilings, drywall systems and insulation estimate.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="section-title">
+<h2>Why Contractors Work With Me</h2>
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<h3>Accurate</h3>
+<p>Detailed Quantity Takeoffs</p>
+</div>
+
+<div class="stat">
+<h3>Fast</h3>
+<p>Quick Bid Turnaround</p>
+</div>
+
+<div class="stat">
+<h3>Reliable</h3>
+<p>Professional Communication</p>
+</div>
+
+<div class="stat">
+<h3>Experienced</h3>
+<p>U.S. Construction Projects</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact" style="background:white;">
+<div class="container">
+
+<div class="section-title">
+<h2>Contact Me</h2>
+</div>
+
+<div class="contact">
+
+<p><strong>Muhammad Waqas</strong></p>
+
+<p>Drywall & Insulation Estimator</p>
+
+<br>
+
+<p>Email: your-email@example.com</p>
+
+<p>WhatsApp: +92-XXX-XXXXXXX</p>
+
+<p>LinkedIn: linkedin.com/in/yourprofile</p>
+
+<br>
+
+<a href="mailto:your-email@example.com">Request a Free Consultation</a>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Muhammad Waqas | Drywall & Insulation Estimator
+</footer>
+
+</body>
+</html>
